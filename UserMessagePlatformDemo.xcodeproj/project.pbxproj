@@ -16,6 +16,7 @@
 		6709AA7C27DF4BE100E53E57 /* UserMessagePlatformDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709AA7B27DF4BE100E53E57 /* UserMessagePlatformDemoTests.swift */; };
 		6709AA8627DF4BE100E53E57 /* UserMessagePlatformDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709AA8527DF4BE100E53E57 /* UserMessagePlatformDemoUITests.swift */; };
 		6709AA8827DF4BE100E53E57 /* UserMessagePlatformDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6709AA8727DF4BE100E53E57 /* UserMessagePlatformDemoUITestsLaunchTests.swift */; };
+		6709AA9527DF600700E53E57 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6709AA9427DF600700E53E57 /* AppTrackingTransparency.framework */; };
 		840C91E728069DBA7384BAE3 /* Pods_UserMessagePlatformDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3007349E8EBE20AA74680ECC /* Pods_UserMessagePlatformDemo.framework */; };
 		920F939044784492C029C4FB /* Pods_UserMessagePlatformDemo_UserMessagePlatformDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74D3A9CC1EAF0431675009CC /* Pods_UserMessagePlatformDemo_UserMessagePlatformDemoUITests.framework */; };
 		F7C4EA97ADB8CFB8076F02C2 /* Pods_UserMessagePlatformDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B04F32ED66D0C42292594EFC /* Pods_UserMessagePlatformDemoTests.framework */; };
@@ -54,6 +55,7 @@
 		6709AA8127DF4BE100E53E57 /* UserMessagePlatformDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UserMessagePlatformDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6709AA8527DF4BE100E53E57 /* UserMessagePlatformDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMessagePlatformDemoUITests.swift; sourceTree = "<group>"; };
 		6709AA8727DF4BE100E53E57 /* UserMessagePlatformDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMessagePlatformDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6709AA9427DF600700E53E57 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
 		6DDCF1784B5693455BCA65EB /* Pods-UserMessagePlatformDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserMessagePlatformDemoTests.release.xcconfig"; path = "Target Support Files/Pods-UserMessagePlatformDemoTests/Pods-UserMessagePlatformDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		74D3A9CC1EAF0431675009CC /* Pods_UserMessagePlatformDemo_UserMessagePlatformDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UserMessagePlatformDemo_UserMessagePlatformDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6AC28971118FB7B5B04152 /* Pods-UserMessagePlatformDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserMessagePlatformDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-UserMessagePlatformDemoTests/Pods-UserMessagePlatformDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6709AA9527DF600700E53E57 /* AppTrackingTransparency.framework in Frameworks */,
 				840C91E728069DBA7384BAE3 /* Pods_UserMessagePlatformDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +104,6 @@
 				9C6AC28971118FB7B5B04152 /* Pods-UserMessagePlatformDemoTests.debug.xcconfig */,
 				6DDCF1784B5693455BCA65EB /* Pods-UserMessagePlatformDemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -161,6 +163,7 @@
 		C12FBE2E7E1678565F0D72B6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6709AA9427DF600700E53E57 /* AppTrackingTransparency.framework */,
 				3007349E8EBE20AA74680ECC /* Pods_UserMessagePlatformDemo.framework */,
 				74D3A9CC1EAF0431675009CC /* Pods_UserMessagePlatformDemo_UserMessagePlatformDemoUITests.framework */,
 				B04F32ED66D0C42292594EFC /* Pods_UserMessagePlatformDemoTests.framework */,
